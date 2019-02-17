@@ -1,0 +1,2 @@
+# NewsApp
+Nickelfox Technical Assignment
