@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     func fetchArticle (fromSource provider: String){
         
        // Get live headlines, articles, images, and other article metadata from Source with JSON API.
-       let urlRequest = URLRequest(url: URL(string: "https://newsapi.org/v2/top-headlines?sources=\(source)&apiKey=e6630e25c93548f2b47a340db0b6ea3c")!)
+       let urlRequest = URLRequest(url: URL(string: "https://newsapi.org/v2/top-headlines?sources=\(source)&apiKey=putyourapikeyhere")!)
         
         print(urlRequest)
         let task = URLSession.shared.dataTask(with: urlRequest){(data, response, error) in
